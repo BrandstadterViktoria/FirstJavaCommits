@@ -26,5 +26,19 @@ public class Array {
                 System.out.print(ag[i] * multiply);
             }
         }
+        public void PracticeFour() {
+            String[][] colors = new String[][]{
+                    {"lime", "forest", "olive", "pale", "spring"},
+                    {"orange", "red", "tomato"},
+                    {"orchid", "violet", "pink", "hot pink"}
+            };
+        }
+
+        public void PracticeFive() {
+            String nimals[] = new String[]{"kuty", "macs", "cic"};
+            for (int i = 0; i < nimals.length; i++) {
+                System.out.println(nimals[i] + "a");
+            }
+        }
 
     }
