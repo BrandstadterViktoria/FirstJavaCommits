@@ -26,6 +26,7 @@ public class Array {
                 System.out.print(ag[i] * multiply);
             }
         }
+
         public void PracticeFour() {
             String[][] colors = new String[][]{
                     {"lime", "forest", "olive", "pale", "spring"},
@@ -41,4 +42,23 @@ public class Array {
             }
         }
 
-    }
+        public void PracticeSix() {
+            String[] abc = new String[]{"first", "second", "third"};
+            String help = abc[0];
+            abc[0] = abc[2];
+            abc[2] = help;
+            for (String print : abc) {
+                System.out.println(print);
+            }
+        }
+
+        public void PracticeSeven() {
+            int ai[] = {3, 4, 5, 6, 7};
+            int sum = 0;
+
+            for (int i = 0; i < ai.length; i++) {
+                sum += ai[i];
+            }
+            System.out.println(sum);
+
+        }
