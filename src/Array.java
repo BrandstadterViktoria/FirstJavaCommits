@@ -62,3 +62,17 @@ public class Array {
             System.out.println(sum);
 
         }
+
+        public void PracticeEight() {
+            int aj[] = {3, 4, 5, 6, 7};
+
+            for (int print : aj) {
+                for (int i = 0; i < aj.length; i++) {
+                    int temp = aj[i];
+                    aj[i] = aj[aj.length - i - 1];
+                    aj[aj.length - i - 1] = temp;
+                }
+                System.out.println(print);
+            }
+        }
+    }
